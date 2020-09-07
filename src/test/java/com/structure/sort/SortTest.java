@@ -5,6 +5,18 @@ import org.junit.jupiter.api.Test;
 public class SortTest {
 
     @Test
+    public void shellSortTest(){
+        int[] array={2,1,4,7,3,9,6};
+        ShellSort shellSort = new ShellSort();
+        int[] a = shellSort.sort(array);
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
+    }
+    /**
+     * 插入排序
+     */
+    @Test
     public void insertSortTest(){
         int[] array={2,1,4,7,3,9,6};
         InsertSort insertSort = new InsertSort();
