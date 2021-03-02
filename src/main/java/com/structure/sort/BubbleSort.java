@@ -1,5 +1,4 @@
 package com.structure.sort;
-
 /**
  * 冒泡排序
  *      时间复杂度：O（n^2)
@@ -11,7 +10,6 @@ package com.structure.sort;
  */
 public class BubbleSort {
     public int[] sort(int []array){
-
         int n = array.length;
         int temp = 0;
         for(int i = 0; i<n;i++){

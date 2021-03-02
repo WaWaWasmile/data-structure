@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 81.70.145.13
+    password: zcj123456
+    port: 6379
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 1200
